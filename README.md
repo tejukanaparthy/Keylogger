@@ -17,12 +17,16 @@ Before running the keylogger, you need to install the required dependencies.
         git clone <repository_url>
         cd <project_directory>
 3. Install the dependencies using pip:
+
         pip3 install -r requirements.txt
+   
 This will install the required libraries: keyboard, pynput.
 
 ## Running the Keylogger
 To run the keylogger, simply execute the Python script:
+        
         python keylogger.py
+        
 The keylogger will start logging your keystrokes and save them to a file named keylog.txt.
 
 ## Stopping the Keylogger
